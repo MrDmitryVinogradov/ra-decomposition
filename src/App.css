@@ -1,38 +1,152 @@
 .App {
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 1400px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  margin: 0;
+  font-size: 16px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.page-header {
   display: flex;
-  flex-direction: column;
+  margin-right: 0;
+  align-items: flex-end;
+  justify-content: space-around;
+  max-width: 80%;
+}
+
+.news-wrapper {
+  width: 70%;
+}
+
+.news-header {
+  display: flex;
+  align-items: baseline;
+  margin-left: 25%;
+}
+
+.news-header-link {
+  margin-right: 10px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.date-and-time {
+  font-size: 12px;
+  color: #444444
+}
+
+.news-body {
+  list-style: none;
+  margin-left: 20%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.news-logo {
+  width: 14px;
+  height: 14px;
+  margin-right: 5px;
+}
+
+.news-item {
+  margin-bottom: 3px;
+}
+
+.news-item-link {
+  font-size: 14px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.card {
+  width: 20%;
+  padding-bottom: 10px;
+}
+
+.card-img {
+  width: 130px;
+}
+
+.card-body {
+  font-size: 14px;
+}
+
+.quotes {
+  display: flex;
+  font-size: 14px;
+  margin-left: 17.7%;
+  margin-top: 0;
+  padding: 0;
+  align-items: baseline;
+}
+
+.quote {
+  display: flex;
+  margin-right: 10px;
+  padding: 0;
+  margin-top: 0;
+}
+
+.ticker {
+  font-weight: 700;
+  margin-right: 5px;
+  padding: 0%;
+}
+
+.price {
+  margin-right: 5px;
+}
+
+.main-logo {
+  align-self: start;
+  margin-top: 36px;
+}
+
+.logo-img {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.search-wrapper {
+  display: flex;
+  margin-left: 9%;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.menu {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menu-link {
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.search-group {
+  width: 100%;
+}
+
+.search-box {
+  display: flex;
+  width: 70%;
+}
+
+.search-input {
+  box-sizing: border-box;
+  width: 60%;
+  height: 30px;
+}
+
+.search-button {
+  height: 30px;
+}
+
+.banner-img {
+  width: 60%;
 }
